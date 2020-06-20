@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popcorn&Watch - Registration</title>
+	<link rel="icon" type="image/webp" href="images/popcorn&watch.webp">
+
+	<meta charset="utf-8">
+	<meta name="author" content="Kapil Singh">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<style type="text/css">
+	p{
+		font-size: 1.3rem;
+		color: springgreen;
+	}
+
+	h2{
+		font-size: 2rem;
+		color: tomato;
+	}
+</style>
+
+<body style="background-color: skyblue ;">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a href="https://popcornnwatch.000webhostapp.com/" class="navbar-brand"><img src="images/popcorn&watch.webp" style="width: 10% ; height: 10%" alt="Popcorn&Watch" title="Home" class="rounded-circle">  Popcorn&Watch</a>
+		</div>
+	</nav>
+
+<div class="container-fluid">
+	<br>
+   <p style="font-size: 200% ; text-align: center;color: rgb(245, 218, 47);font-family: times new roman;"><b><abbr title="Find The Entertainment" style="border: none; text-decoration: none;"><u>POPCORN&WATCH</u></abbr></b>
+   </p>
+</div>
+
+<form method="post" action="connect.php">
+	<div class="container-fluid">
+	<h2 style="padding: 15px 20px">User Registration</h2>
+		<div class="form-horizontal " class="form-group" style="padding-top: 15px ; padding-left: 20px;">
+			<label><abbr title="Required" style="text-decoration: none;border: none;">Full Name*</abbr></label>
+			<input type="text" name="fname" class="form-control" placeholder="Enter full name here">
+			<br>
+			<label><abbr title="Required" style="text-decoration: none;border: none;">Email Address*&nbsp&nbsp</abbr></label>
+			<input type="text" name="email" class="form-control" placeholder="Enter valid E-Mail ID">
+			<br>
+			<label><abbr title="Must be between 8-16 characters long" style="text-decoration: none;border: none;">Password*&nbsp&nbsp</abbr></label>
+			<input type="password" name="pass" class="form-control" placeholder="Enter a secure password">
+		</div>
+		<!--div class="checkbox" style="padding-top: 15px ; padding-left: 20px;">
+			<label class="text-light"><input type="checkbox"> Opt me in for special offers and discounts</label>
+		</div-->
+		<div class="form-group" style="padding-top: 15px ; padding-left: 20px;">
+			<label for="query"><abbr title="Optional" style="text-decoration: none;border: none;">Remarks</label>
+			<textarea class="form-control" rows="5" id="query" placeholder="Please give your remrks (in 20 words or less)" name="remark" type="text" ></textarea>
+		</div>
+		<br>
+		<button type="submit" class="btn btn-default" style=" margin-left: 20px">Submit</button>
+	</div>
+</form>
+<br>
+</body>
+</html>
